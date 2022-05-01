@@ -4,7 +4,7 @@ import './style.css';
 const items = document.querySelectorAll('.cursor-pointer');
 const prev = document.querySelector('li:first-child');
 const next = document.querySelector('li:last-child');
-let pagesAsArray = document.querySelectorAll('li');
+const pagesAsArray = document.querySelectorAll('li');
 
 prev.style.display = 'none';
 let currentPage = 1;
